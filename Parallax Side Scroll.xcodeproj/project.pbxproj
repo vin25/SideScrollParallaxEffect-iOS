@@ -21,6 +21,9 @@
 		EA3CAFE119026F5E00E38392 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CAFC319026F5E00E38392 /* UIKit.framework */; };
 		EA3CAFE919026F5E00E38392 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA3CAFE719026F5E00E38392 /* InfoPlist.strings */; };
 		EA3CAFEB19026F5E00E38392 /* Parallax_Side_ScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3CAFEA19026F5E00E38392 /* Parallax_Side_ScrollTests.m */; };
+		EA3CAFF9190270B100E38392 /* bg_temp_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3CAFF6190270B100E38392 /* bg_temp_1.jpg */; };
+		EA3CAFFA190270B100E38392 /* bg_temp_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3CAFF7190270B100E38392 /* bg_temp_2.jpg */; };
+		EA3CAFFB190270B100E38392 /* bg_temp_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3CAFF8190270B100E38392 /* bg_temp_3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		EA3CAFE619026F5E00E38392 /* Parallax Side ScrollTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Parallax Side ScrollTests-Info.plist"; sourceTree = "<group>"; };
 		EA3CAFE819026F5E00E38392 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA3CAFEA19026F5E00E38392 /* Parallax_Side_ScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parallax_Side_ScrollTests.m; sourceTree = "<group>"; };
+		EA3CAFF6190270B100E38392 /* bg_temp_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_temp_1.jpg; sourceTree = "<group>"; };
+		EA3CAFF7190270B100E38392 /* bg_temp_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_temp_2.jpg; sourceTree = "<group>"; };
+		EA3CAFF8190270B100E38392 /* bg_temp_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_temp_3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 				EA3CAFD119026F5E00E38392 /* Main.storyboard */,
 				EA3CAFD419026F5E00E38392 /* ViewController.h */,
 				EA3CAFD519026F5E00E38392 /* ViewController.m */,
+				EA3CAFF4190270B100E38392 /* Images */,
 				EA3CAFD719026F5E00E38392 /* Images.xcassets */,
 				EA3CAFC619026F5E00E38392 /* Supporting Files */,
 			);
@@ -150,6 +157,24 @@
 				EA3CAFE719026F5E00E38392 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA3CAFF4190270B100E38392 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EA3CAFF5190270B100E38392 /* BackgroundImages */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EA3CAFF5190270B100E38392 /* BackgroundImages */ = {
+			isa = PBXGroup;
+			children = (
+				EA3CAFF6190270B100E38392 /* bg_temp_1.jpg */,
+				EA3CAFF7190270B100E38392 /* bg_temp_2.jpg */,
+				EA3CAFF8190270B100E38392 /* bg_temp_3.jpg */,
+			);
+			path = BackgroundImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA3CAFD819026F5E00E38392 /* Images.xcassets in Resources */,
+				EA3CAFFA190270B100E38392 /* bg_temp_2.jpg in Resources */,
 				EA3CAFCA19026F5E00E38392 /* InfoPlist.strings in Resources */,
+				EA3CAFF9190270B100E38392 /* bg_temp_1.jpg in Resources */,
+				EA3CAFFB190270B100E38392 /* bg_temp_3.jpg in Resources */,
 				EA3CAFD319026F5E00E38392 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
